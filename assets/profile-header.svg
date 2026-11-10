@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
   <title id="title">Alex Andres — devopvoid</title>
-  <desc id="desc">Open source. Real-time media. Java meets native. Dark banner with a peer-to-peer network of glowing mint and violet nodes.</desc>
+  <desc id="desc">Open source. Real-time media. Java meets native. Dark banner with a fine audio waveform fading from mint to violet.</desc>
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#171b30"/></linearGradient>
     <linearGradient id="signal" x1="0%" y1="0%" x2="100%" y2="0%"><stop stop-color="#6ef3c5"/><stop offset="1" stop-color="#a897ff"/></linearGradient>
@@ -10,70 +10,11 @@
   <g clip-path="url(#clip)">
     <rect width="1200" height="380" fill="url(#bg)"/>
     <rect width="1200" height="380" fill="url(#grid)"/>
-    <g id="peer-network" aria-hidden="true">
-      <ellipse cx="1000" cy="184" rx="220" ry="150" fill="#a897ff" opacity=".025"/>
-      <g fill="none" stroke="url(#signal)" stroke-width="1.2">
-        <path d="M795 218L865 105" opacity="0.22"/>
-        <path d="M795 218L986 180" opacity="0.45"/>
-        <path d="M795 218L910 292" opacity="0.22"/>
-        <path d="M865 105L986 180" opacity="0.45"/>
-        <path d="M865 105L1007 64" opacity="0.22"/>
-        <path d="M986 180L1007 64" opacity="0.45"/>
-        <path d="M986 180L1140 116" opacity="0.45"/>
-        <path d="M986 180L1110 279" opacity="0.45"/>
-        <path d="M986 180L910 292" opacity="0.45"/>
-        <path d="M1007 64L1140 116" opacity="0.22"/>
-        <path d="M1140 116L1110 279" opacity="0.22"/>
-        <path d="M1110 279L910 292" opacity="0.22"/>
-      </g>
-      <g transform="translate(795 218)" fill="#6ef3c5">
-        <circle r="16" opacity=".035"/>
-        <circle r="9.6" opacity=".07"/>
-        <circle r="9" fill="none" stroke="#6ef3c5" stroke-opacity=".22" stroke-width=".8"/>
-        <circle r="4"/>
-        <circle r="1.4" fill="#e9fffa" opacity=".8"/>
-      </g>
-      <g transform="translate(865 105)" fill="#6ef3c5">
-        <circle r="20" opacity=".035"/>
-        <circle r="12.0" opacity=".07"/>
-        <circle r="10" fill="none" stroke="#6ef3c5" stroke-opacity=".22" stroke-width=".8"/>
-        <circle r="5"/>
-        <circle r="1.75" fill="#e9fffa" opacity=".8"/>
-      </g>
-      <g transform="translate(986 180)" fill="#83ddd9">
-        <circle r="28" opacity=".035"/>
-        <circle r="16.8" opacity=".07"/>
-        <circle r="12" fill="none" stroke="#83ddd9" stroke-opacity=".22" stroke-width=".8"/>
-        <circle r="7"/>
-        <circle r="2.4499999999999997" fill="#e9fffa" opacity=".8"/>
-      </g>
-      <g transform="translate(1007 64)" fill="#a897ff">
-        <circle r="14.0" opacity=".035"/>
-        <circle r="8.4" opacity=".07"/>
-        <circle r="8.5" fill="none" stroke="#a897ff" stroke-opacity=".22" stroke-width=".8"/>
-        <circle r="3.5"/>
-        <circle r="1.2249999999999999" fill="#e9fffa" opacity=".8"/>
-      </g>
-      <g transform="translate(1140 116)" fill="#a897ff">
-        <circle r="20" opacity=".035"/>
-        <circle r="12.0" opacity=".07"/>
-        <circle r="10" fill="none" stroke="#a897ff" stroke-opacity=".22" stroke-width=".8"/>
-        <circle r="5"/>
-        <circle r="1.75" fill="#e9fffa" opacity=".8"/>
-      </g>
-      <g transform="translate(1110 279)" fill="#a897ff">
-        <circle r="22.0" opacity=".035"/>
-        <circle r="13.2" opacity=".07"/>
-        <circle r="10.5" fill="none" stroke="#a897ff" stroke-opacity=".22" stroke-width=".8"/>
-        <circle r="5.5"/>
-        <circle r="1.9249999999999998" fill="#e9fffa" opacity=".8"/>
-      </g>
-      <g transform="translate(910 292)" fill="#6ef3c5">
-        <circle r="18.0" opacity=".035"/>
-        <circle r="10.799999999999999" opacity=".07"/>
-        <circle r="9.5" fill="none" stroke="#6ef3c5" stroke-opacity=".22" stroke-width=".8"/>
-        <circle r="4.5"/>
-        <circle r="1.575" fill="#e9fffa" opacity=".8"/>
+    <g id="audio-waveform" aria-hidden="true">
+      <ellipse cx="985" cy="190" rx="220" ry="130" fill="#a897ff" opacity=".025"/>
+      <g fill="none" stroke="url(#signal)" stroke-linecap="round">
+        <path d="M750 186.1V193.9 M756 183.6V196.4 M762 183.6V196.4 M768 184.5V195.5 M774 180.5V199.5 M780 182.3V197.7 M786 179.6V200.4 M792 178.5V201.5 M798 181.9V198.1 M804 175.6V204.4 M810 174.0V206.0 M816 175.3V204.7 M822 167.5V212.5 M828 170.3V209.7 M834 163.3V216.7 M840 155.5V224.5 M846 168.7V211.3 M852 150.0V230.0 M858 146.3V233.7 M864 162.5V217.5 M870 136.3V243.7 M876 146.0V234.0 M882 147.1V232.9 M888 137.6V242.4 M894 149.6V230.4 M900 139.5V240.5 M906 142.3V237.7 M912 160.0V220.0 M918 134.9V245.1 M924 148.2V231.8 M930 149.9V230.1 M936 142.5V237.5 M942 160.8V219.2 M948 148.4V231.6 M954 152.2V227.8 M960 165.5V214.5 M966 147.3V232.7 M972 153.7V226.3 M978 153.5V226.5 M984 141.7V238.3 M990 152.8V227.2 M996 145.2V234.8 M1002 135.4V244.6 M1008 156.0V224.0 M1014 128.3V251.7 M1020 131.4V248.6 M1026 140.8V239.2 M1032 116.5V263.5 M1038 133.1V246.9 M1044 126.2V253.8 M1050 120.4V259.6 M1056 154.7V225.3 M1062 129.5V250.5 M1068 132.2V247.8 M1074 150.2V229.8 M1080 140.2V239.8 M1086 160.6V219.4 M1092 157.2V222.8 M1098 160.9V219.1 M1104 174.9V205.1 M1110 166.7V213.3 M1116 172.6V207.4 M1122 179.2V200.8 M1128 176.3V203.7 M1134 180.6V199.4 M1140 181.4V198.6 M1146 181.8V198.2 M1152 185.8V194.2 M1158 183.5V196.5 M1164 184.0V196.0 M1170 186.1V193.9 M1176 183.2V196.8 M1182 184.7V195.3" stroke-width="7" opacity=".055"/>
+        <path d="M750 186.1V193.9 M756 183.6V196.4 M762 183.6V196.4 M768 184.5V195.5 M774 180.5V199.5 M780 182.3V197.7 M786 179.6V200.4 M792 178.5V201.5 M798 181.9V198.1 M804 175.6V204.4 M810 174.0V206.0 M816 175.3V204.7 M822 167.5V212.5 M828 170.3V209.7 M834 163.3V216.7 M840 155.5V224.5 M846 168.7V211.3 M852 150.0V230.0 M858 146.3V233.7 M864 162.5V217.5 M870 136.3V243.7 M876 146.0V234.0 M882 147.1V232.9 M888 137.6V242.4 M894 149.6V230.4 M900 139.5V240.5 M906 142.3V237.7 M912 160.0V220.0 M918 134.9V245.1 M924 148.2V231.8 M930 149.9V230.1 M936 142.5V237.5 M942 160.8V219.2 M948 148.4V231.6 M954 152.2V227.8 M960 165.5V214.5 M966 147.3V232.7 M972 153.7V226.3 M978 153.5V226.5 M984 141.7V238.3 M990 152.8V227.2 M996 145.2V234.8 M1002 135.4V244.6 M1008 156.0V224.0 M1014 128.3V251.7 M1020 131.4V248.6 M1026 140.8V239.2 M1032 116.5V263.5 M1038 133.1V246.9 M1044 126.2V253.8 M1050 120.4V259.6 M1056 154.7V225.3 M1062 129.5V250.5 M1068 132.2V247.8 M1074 150.2V229.8 M1080 140.2V239.8 M1086 160.6V219.4 M1092 157.2V222.8 M1098 160.9V219.1 M1104 174.9V205.1 M1110 166.7V213.3 M1116 172.6V207.4 M1122 179.2V200.8 M1128 176.3V203.7 M1134 180.6V199.4 M1140 181.4V198.6 M1146 181.8V198.2 M1152 185.8V194.2 M1158 183.5V196.5 M1164 184.0V196.0 M1170 186.1V193.9 M1176 183.2V196.8 M1182 184.7V195.3" stroke-width="2" opacity=".9"/>
       </g>
     </g>
     <g font-family="DejaVu Sans,Arial,sans-serif">
