@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Alex Andres — devopvoid</title>
+  <desc id="desc">Open source. Real-time media. Java meets native. Dark banner with mint and violet signal waves.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#171b30"/></linearGradient>
+    <linearGradient id="signal" x1="0%" y1="0%" x2="100%" y2="0%"><stop stop-color="#6ef3c5"/><stop offset="1" stop-color="#a897ff"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+    <clipPath id="clip"><rect width="1200" height="380" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="380" fill="url(#bg)"/>
+    <rect width="1200" height="380" fill="url(#grid)"/>
+    <circle cx="1050" cy="185" r="240" fill="#a897ff" opacity=".035"/>
+    <circle cx="1050" cy="185" r="175" fill="none" stroke="#a897ff" stroke-opacity=".12"/>
+    <circle cx="1050" cy="185" r="115" fill="none" stroke="#6ef3c5" stroke-opacity=".14"/>
+    <g fill="none" stroke="url(#signal)" stroke-linecap="round">
+      <path d="M755 190H800L818 166L838 221L864 124L895 258L924 105L955 234L980 159L1000 190H1200" stroke-width="3"/>
+      <path d="M755 211H800L818 187L838 242L864 145L895 279L924 126L955 255L980 180L1000 211H1200" stroke-width="1" opacity=".2"/>
+    </g>
+    <circle cx="1000" cy="190" r="6" fill="#6ef3c5"/>
+    <circle cx="1000" cy="190" r="13" fill="none" stroke="#6ef3c5" stroke-opacity=".25"/>
+    <g font-family="DejaVu Sans,Arial,sans-serif">
+      <rect x="56" y="49" width="128" height="30" rx="15" fill="#6ef3c5" fill-opacity=".09" stroke="#6ef3c5" stroke-opacity=".25"/>
+      <text x="120" y="69" fill="#6ef3c5" font-family="DejaVu Sans Mono,monospace" font-size="13" text-anchor="middle">~/devopvoid</text>
+      <text x="56" y="164" fill="#f0f4fc" font-size="66" font-weight="700" letter-spacing="-2">Alex Andres</text>
+      <text x="482" y="164" fill="#6ef3c5" font-size="66" font-weight="700">.</text>
+      <text x="59" y="211" fill="#aebbd0" font-size="23">Real-time ideas. Open-source code.</text>
+      <text x="59" y="289" fill="#6ef3c5" font-family="DejaVu Sans Mono,monospace" font-size="14" letter-spacing="2">JAVA / NATIVE / WEB</text>
+      <text x="59" y="326" fill="#7f8ca5" font-size="13">WIESBADEN, GERMANY</text>
+      <text x="1144" y="326" fill="#a897ff" font-family="DejaVu Sans Mono,monospace" font-size="13" text-anchor="end">&lt; / &gt;</text>
+    </g>
+    <path d="M0 379H1200" stroke="url(#signal)" stroke-width="3"/>
+  </g>
+</svg>
