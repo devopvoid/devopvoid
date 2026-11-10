@@ -672,8 +672,7 @@
       <text x="482" y="164" fill="#6ef3c5" font-size="66" font-weight="700">.</text>
       <text x="59" y="211" fill="#aebbd0" font-size="23">Real-time ideas. Open-source code.</text>
       <text x="59" y="289" fill="#6ef3c5" font-family="DejaVu Sans Mono,monospace" font-size="14" letter-spacing="2">JAVA / NATIVE / WEB</text>
-      <text x="59" y="326" fill="#7f8ca5" font-size="13">WIESBADEN, GERMANY</text>
-      </g>
+    </g>
     <path d="M0 379H1200" stroke="url(#signal)" stroke-width="3"/>
   </g>
 </svg>
